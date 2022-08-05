@@ -1,0 +1,1 @@
+ifort -O3 ../mt_stream_f90-1.11/mt_stream.o  ../mt_stream_f90-1.11/f_jump_ahead_coeff/gf2xe.o  ../mt_stream_f90-1.11/f_jump_ahead_coeff/f_get_coeff.o   parameters.f90  allocate.f90  maincode.f90 gauss.f90 mersenne.f90  updatepart.f90 plebound_col.f90 pleple_col.f90 forceupdate_act_bound.f90 forceupdate_pass_bound.f90 forceupdate_aa.f90 forceupdate_ap.f90 -o simulate.exe
